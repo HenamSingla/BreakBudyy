@@ -5,7 +5,7 @@ import google.generativeai as genai
 MODEL = "gemini-1.5-flash"
 
 def _setup() -> bool:
-    key = "AIzaSyDfJTT90L-zbc1MQAovGikuDpj0ce5CZGE"   # <--- paste directly
+    key = ""   # <--- paste API
     if not key:
         return False
     genai.configure(api_key=key)
@@ -64,3 +64,4 @@ def summarize_pto_request(employee_name: str, days: int, reason: str = "") -> st
     )
     resp = genai.GenerativeModel(MODEL).generate_content(prompt)
     return (resp.text or "").strip()
+
