@@ -5,7 +5,7 @@ It combines a **FastAPI backend** and a **Streamlit frontend**, with sliders for
 
 ---
 
-## 🚀 Features
+## Features
 - ✅ **FastAPI backend** serving:
   - `/health` — health check  
   - `/balance` — PTO accrual balance lookup  
@@ -20,10 +20,3 @@ It combines a **FastAPI backend** and a **Streamlit frontend**, with sliders for
 
 ---
 
-SmartPTO/
-├── backend/
-│ └── app.py # FastAPI server
-├── frontend/
-│ └── streamlit_app.py # Streamlit dashboard
-├── requirements.txt # Python dependencies
-└── README.md # You are here!
