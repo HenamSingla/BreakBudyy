@@ -20,14 +20,10 @@ It combines a **FastAPI backend** and a **Streamlit frontend**, with sliders for
 
 ---
 
-## 🏗️ Project Structure
 SmartPTO/
-│
 ├── backend/
 │ └── app.py # FastAPI server
-│
 ├── frontend/
 │ └── streamlit_app.py # Streamlit dashboard
-│
-├── README.md # You are here!
-└── requirements.txt # Python dependencies
+├── requirements.txt # Python dependencies
+└── README.md # You are here!
