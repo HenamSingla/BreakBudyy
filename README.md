@@ -5,6 +5,9 @@ It combines a **FastAPI backend** and a **Streamlit frontend**, with sliders for
 
 ---
 
+<img width="943" height="957" alt="BreakBuddy Screen" src="https://github.com/user-attachments/assets/f7114993-4ec6-4958-bd78-2ba5d1ef57d0" />
+
+
 ## Features
 - ✅ **FastAPI backend** serving:
   - `/health` — health check  
